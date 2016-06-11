@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Basic HTML with No CSS </title>
+    </head>
+
+<body>
+<!-- The head of the document ends above. The head contains metadata about
+     the document. Metadata includes the 'title' tag, which is used by search
+     engines. The body, which always begins below the head, contains all the
+     things that can be seen on the page. -->
+
+<h1>This is an 'h1' heading</h1>
+
+<p>An 'h1' heading should be used only for the most important heading
+    in the document, which is usually the top heading.</p>
+
+<h2>This is an 'h2' heading</h2>
+<h3>This is an 'h3' heading</h3>
+<h4>This is an 'h4' heading</h4>
+<h5>This is an 'h5' heading</h5>
+<h6>This is an 'h6' heading</h6>
+
+<p>Headings indicate a hierarchy in your document. The 'h' tags should
+    never be used in place of boldface or font-size. The appearance of headings
+    can be changed with CSS.</p>
+
+<h2>Images in HTML</h2>
+
+<p>This image is in the same set of files as this document:</p>
+
+<img src="images/kitten.jpg" alt="Photo of a kitten">
+
+<p>This image is outside this set of files, on another web server:</p>
+
+<img src="http://placekitten.com/400/400" alt="Photo of another kitten">
+
+<p>The difference can be found in the 'src' attribute, inside the 'a' tag.</p>
+
+<h2>Links in HTML</h2>
+
+<p>Links have something in common with images: you can write them to get a file from the same set of files as this document, or write them differently to get a file outside this set of files, on another web server.</p>
+
+<p>This link opens a file from the same set of files as this document:
+    <a href=""></a>. It uses what is called a <em>relative</em> URL.</p>
+
+<p>This link opens a file from outside this set of files:
+    <a href="http://placekitten.com/">The placekitten site</a>. It uses what is called an <em>absolute</em> URL.</p>
+
+<h2>HTML Lists</h2>
+
+<!-- unordered list -->
+<ul>
+    <li>This is an unordered list.</li>
+    <li>An unordered list has bullets (you can change that with CSS).</li>
+    <li>You should learn the difference between an unordered list and an
+        ordered list.</li>
+</ul>
+
+<!-- ordered list -->
+<ol>
+    <li>This is an ordered list.</li>
+    <li>An ordered list has numbers (you can change that with CSS).</li>
+    <li>You should learn the difference between an ordered list and an
+        unordered list.</li>
+</ol>
+
+<!-- definition list -->
+<dl>
+    <dt>This is a definition list.</dt>
+        <dd>Each item in a definition list has two parts, a term ('dt') and
+            data ('dd'). Think of a dictionary definition: Word = term. Definition = data.</dd>
+    <dt>Use CSS to change the appearance of a definition list.</dt>
+        <dd>The structure of a definition list should indicate the pairs,
+            term and data, but you can make them look however you like by
+            changing their properties with CSS.</dd>
+</dl>
+
+<h2>Conclusion</h2>
+
+<p>After you have mastered the HTML tags and conventions on this page, you can start learning CSS.</p>
+
+<!-- your HTML document will always end with the two tags below -->
+</body>
+</html>
