@@ -12,14 +12,16 @@ Use [JSFiddle](https://jsfiddle.net/) to let students play with HTML tags. Stude
 
 ![Screen capture: JSFiddle controls](images/JSFiddle-commands.png)
 
-First, focus on headings, paragraphs, images, and links (as in the example). Emphasize that HTML is intended to reflect the document's structure. For example, use an `H1` tag *only* for the top-level heading in the document, and do not use `H` tags (`H1` through `H6`) on any text that is not a heading.
+First, focus on headings, paragraphs, images, and links (as in the example). Emphasize that HTML is intended to reflect the document's structure. For example, use an `h1` tag *only* for the top-level heading in the document, and do not use `h` tags (`h1` through `h6`) on any text that is *not a heading*. The tags are not meant to make text *look* a certain way; they are meant to mark up the structural elements.
 ```
 <h1> </h1>
 <p> </p>
 <img src="" alt="">
 <a href=""> </a>
 ```
-Note that all images must have an `alt` attribute, or the HTML will not [validate](https://html5.validator.nu/).
+Note that all images must have an `alt` attribute, or the HTML will not [validate](https://html5.validator.nu/). If you don't believe me, [read this](https://www.joedolson.com/2015/03/are-alt-attributes-required-always/).
+
+Another thing to note is that no tags require a slash at the end — `/>` — that was XHTML, and it's gone. All modern browsers support HTML5 now.
 
 If you want to introduce bold and italic styles, use the `<strong>` and `<em>` tags, not the old `<b>` and `<i>` tags!
 
@@ -46,7 +48,7 @@ h1 {
 ```
 Students like using the [Adobe Color site](https://color.adobe.com/) for experimenting with color palettes.
 
-Along with colors, you can introduce link styles (pseudo classes). This is a simple way to start that reinforces working with hexadecimal colors and the background and color properties.
+Along with colors, you can introduce link styles (pseudo classes). This is a simple way to start that reinforces working with hexadecimal colors and the background and color properties:
 ```
 a {
     color: #95AB63;
