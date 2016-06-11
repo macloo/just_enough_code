@@ -55,6 +55,7 @@ After headings, paragraphs, images, and links, students should learn to use the 
 Still using JSFiddle, you can introduce hexadecimal colors — see [video](https://www.youtube.com/watch?v=iJcIlC4yFIQ&index=22&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB) (4 min.). In CSS, the `background` property determines the background color of an element, and the `color` property determines the foreground or text color.
 
 Color will always be separated from the HTML. JSFiddle makes it easy to do this from the very start. [Here is an example.](https://jsfiddle.net/macloo/79fkd75m/)
+
 ```
 body {
   background: #E2F0D6;
@@ -64,6 +65,7 @@ h1 {
   color: #F6FFE0;
 }
 ```
+
 Students like using the [Adobe Color site](https://color.adobe.com/) for experimenting with color palettes.
 
 Along with colors, you can introduce link styles (pseudo classes). This is a simple way to start that reinforces working with hexadecimal colors and the background and color properties:
@@ -158,3 +160,9 @@ At this point, students can begin learning about:
 Thanks to [JSFiddle](https://jsfiddle.net/), which was introduced above, students can experiment very quickly with JavaScript and jQuery. It helps to understand the basics of HTML and CSS first.
 
 Why teach JavaScript and jQuery to beginners? Because JavaScript is what makes digital content *interactive.* If you want it to move, spin, fold, animate, calculate, or just plain respond, then it needs JavaScript!
+
+[jQuery](http://jquery.com/) is a JavaScript library, and JSFiddle makes it easy to start using it. Open the menu in the JavaScript pane (shown below), change the two fields indicated, and you're ready to play.
+
+![Screen capture: jQuery in JSFiddle](images/jQuery-in-JSFiddle.png)
+
+I like to start students with something they can alter. Again, JSFiddle is perfect for this. [Here is an example.](https://jsfiddle.net/macloo/xegj2oe7/)
