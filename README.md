@@ -76,6 +76,8 @@ This is more about code, I promise, but first we need to talk about text editors
 
 [Atom](https://atom.io/) is my top recommendation for everyone — except it looks like Windows 10 users can't use it (yet?). [Notepad++](https://notepad-plus-plus.org/) will work for any Windows version. Both are free.
 
+![Screen capture: Download from GitHub](images/download-zip.png)
 
+Your students can now download a zipped copy of this GitHub repo: Click the **Clone or download** button and then click **Download ZIP**. This gives them a proper file structure for a project (with separate folders for *css, images,* and *scripts*) and a few file templates to work with.
 
 ### Step 4: JavaScript and jQuery
