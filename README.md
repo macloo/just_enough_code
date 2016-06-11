@@ -70,6 +70,12 @@ I recommend saving fonts until later, when the students are working with real fi
 * [HTMLDog tutorials: CSS](http://htmldog.com/guides/css/beginner/)
 * [Codecademy HTML](https://www.codecademy.com/learn/web)
 
-### Step 3: Using the Atom Text Editor
+### Step 3: Using a Text Editor and Managing Files
+
+This is more about code, I promise, but first we need to talk about text editors for Windows and Mac. You need to use a proper text editor for code, and you **must not use** Notepad (Windows) or TextEdit (Mac) because they don't do the right things in the right way.
+
+[Atom](https://atom.io/) is my top recommendation for everyone — except it looks like Windows 10 users can't use it (yet?). [Notepad++](https://notepad-plus-plus.org/) will work for any Windows version. Both are free.
+
+
 
 ### Step 4: JavaScript and jQuery
