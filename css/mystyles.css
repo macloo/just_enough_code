@@ -1,0 +1,16 @@
+/* a beginner template for CSS styles */
+/* learn CSS here - http://www.htmldog.com/guides/css/beginner/  */
+
+body {
+    max-width: 800px;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 100%;
+    background: #fff; /* this is white */
+    color: #000; /* text: this is black */
+}
+h1 {
+    margin: 0;
+    padding: 40px 0 10px 0; /* the order: top right bottom left - or TRouBLe */
+    font-size: 3em;
+}
