@@ -218,3 +218,21 @@ What is the action that ensues? It takes place in four parts, one part per line 
 4. Creates a *string* from s, v, and o by adding (actually, *concatenating*) them together with single spaces: `(s + " " + v + " " + o)`. Finds the element in the HTML with `id` "sentence" — because of `$('#sentence')`. Then *replaces* the text inside that element (the `p`) with the new string — because of `.text()`.
 
 Right now you might be wondering how you would ever learn all those bits and pieces and how to put them together. Most people learn by looking at fairly simple scripts, playing with them, and modifying them. You don't need to know *everything* to be able to do *something.*
+
+### The pattern for changing things
+
+The use of `id` attributes **in the HTML,** combined with a standard pattern in jQuery, makes possible quite a lot of things:
+
+```
+$('#some_id').some_action(function() {
+    // code that makes things happen
+    // can be several lines, or one
+});
+```
+
+### Reliable JavaScript and jQuery resources:
+
+* [Mozilla Developer Network: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Codecademy: JavaScript](https://www.codecademy.com/learn/javascript)
+* [Codecademy: jQuery](https://www.codecademy.com/learn/jquery)
+* [Code School: jQuery](https://www.codeschool.com/courses/try-jquery)
