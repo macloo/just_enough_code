@@ -5,6 +5,7 @@ Teaching web design in 2016 shouldn't be about software and which buttons to pus
 In my view, code is empowering. Using code is like using brushes and paint, and using software tools is like using an Etch A Sketch.
 
 ![Photo: Etch A Sketch toy](images/etch-a-sketch.jpg)
+
 *Don't teach your students to use this.*
 
 ## Step 1: HTML
