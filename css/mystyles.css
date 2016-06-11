@@ -1,9 +1,14 @@
 /* a beginner template for CSS styles */
 /* learn CSS here - http://www.htmldog.com/guides/css/beginner/  */
 
+/* properties specified for the body affect the whole page
+   they can be changed for individual elements below
+   the order matters: things below will override things above them
+   */
 body {
     max-width: 800px;
     margin: auto;
+    padding-bottom: 40px;
     font-family: sans-serif;
     font-size: 100%;
     background: #fff; /* this is white */
@@ -13,4 +18,9 @@ h1 {
     margin: 0;
     padding: 40px 0 10px 0; /* the order: top right bottom left - or TRouBLe */
     font-size: 3em;
+}
+/* technique for centering all images */
+img {
+    display: block;
+    margin: auto;
 }
