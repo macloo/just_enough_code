@@ -25,6 +25,20 @@ Note that all images must have an `alt` attribute, or the HTML will not [validat
 
 Another thing to note is that no tags require a slash at the end — `/>` — that was XHTML, and it's gone. All modern browsers support HTML5 now. Tags are either paired — `<p> </p>` — or empty — `<img>`.
 
+The `<br>` tag is not intended for creating linespaces. [Its few legitimate uses](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br) include postal addresses and poetry.
+
+```
+Mary McFee<br>
+123 Main Street<br>
+Littletown, FL 32611<br>
+
+A fly and a flea in a flue<br>
+Were imprisoned, so what could they do?<br>
+Said the fly: "Let us flee!"<br>
+"Let us fly!" said the flea.<br>
+So they flew through a flaw in the flue.<br>
+```
+
 If you want to introduce bold and italic styles, use the `<strong>` and `<em>` tags, not the old `<b>` and `<i>` tags!
 
 Above all, do not let students insert style elements such as fonts and colors into the HTML tags. That is not how it's done in 2016.
