@@ -154,3 +154,7 @@ At this point, students can begin learning about:
 * [Accessibility](https://www.w3.org/standards/webdesign/accessibility) for disabilities
 
 ## Step 4: JavaScript and jQuery
+
+Thanks to [JSFiddle](https://jsfiddle.net/), which was introduced above, students can experiment very quickly with JavaScript and jQuery. It helps to understand the basics of HTML and CSS first.
+
+Why teach JavaScript and jQuery to beginners? Because JavaScript is what makes digital content *interactive.* If you want it to move, spin, fold, animate, calculate, or just plain respond, then it needs JavaScript!
