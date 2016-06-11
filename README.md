@@ -140,9 +140,13 @@ If stylesheets are linked, the `link` tag goes inside the `head` and below the `
 
 ### Relevance of step 3
 
-In this outline, I recommend a learning order that corresponds to a progression of expertise in a newsroom or other editing/production environment. The basic level of knowledge is HTML and the ability to write (or fix) links, images, etc. A little more advanced is the ability to write (or fix) specific styles, such as colors, font sizes, and margins. Steps 1 and 2 apply to working within content management systems.
+In this outline, I recommend a learning order that corresponds to a progression of expertise in a newsroom or other editing/production environment. The basic level of knowledge is HTML (step 1) and the ability to write (or fix) links, images, etc.
 
-Step 3 goes beyond content management systems (such as WordPress) and enables  students to create complete standalone documents outside a content management system. Being able to use a text editor and manage files means they can create a site consisting of many pages or a single-page application for web or mobile or both. At this point, students can begin learning about:
+A little more advanced is the ability to write (or fix) specific CSS styles, such as colors, font sizes, and margins (step 2). Steps 1 and 2 apply to working within content management systems as well as outside them.
+
+Step 3 goes beyond content management systems (such as WordPress) and enables  students to create complete standalone documents outside a content management system. Being able to use a text editor and manage files means they can create a site consisting of many pages, or a single-page application for web or mobile, or both.
+
+At this point, students can begin learning about:
 
 * Page layouts and responsive design/design for mobile devices
 * Responsive images
