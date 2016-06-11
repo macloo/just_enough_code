@@ -5,6 +5,7 @@ Teaching web design in 2016 shouldn't be about software and which buttons to pus
 In my view, code is empowering. Using code is like using brushes and paint, and using software tools is like using an Etch A Sketch.
 
 ![Photo: Etch A Sketch toy](images/etch-a-sketch.jpg)
+*Don't teach your students to use this.*
 
 ## Step 1: HTML
 
@@ -21,11 +22,13 @@ First, focus on headings, paragraphs, images, and links (as in the example). Emp
 ```
 Note that all images must have an `alt` attribute, or the HTML will not [validate](https://html5.validator.nu/). If you don't believe me, [read this](https://www.joedolson.com/2015/03/are-alt-attributes-required-always/).
 
-Another thing to note is that no tags require a slash at the end — `/>` — that was XHTML, and it's gone. All modern browsers support HTML5 now.
+Another thing to note is that no tags require a slash at the end — `/>` — that was XHTML, and it's gone. All modern browsers support HTML5 now. Tags are either paired — `<p> </p>` — or empty — `<img>`.
 
 If you want to introduce bold and italic styles, use the `<strong>` and `<em>` tags, not the old `<b>` and `<i>` tags!
 
 Above all, do not let students insert style elements such as fonts and colors into the HTML tags. That is not how it's done in 2016.
+
+After headings, paragraphs, images, and links, students should learn to use the three types of lists: ordered, unordered, and definition. Save forms and tables for *much* later. Also, we'll get to `html`, `head`, and `body` in step 3, below.
 
 ### Reliable HTML resources:
 
