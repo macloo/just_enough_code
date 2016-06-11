@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Tip Calculator </title>
+        <link href="css/tip_calc.css" rel="stylesheet">
+    </head>
+
+<body>
+
+<h1>Tip Calculator</h1>
+
+<p>Type in the meal total, the tax, and the percentage tip you would like to pay.</p>
+
+<label>Meal total before tax</label>
+<input type="text" id="meal">
+<label>Tax</label>
+<input type="text" id="tax">
+<label>Tip percent (ex. 20)</label>
+<input type="text" id="tip">
+
+<label>Tip amount</label>
+<p id="tip_amt"> </p>
+
+<label>Total</label>
+<p id="total"> </p>
+
+<button id="add_all">Get Total</button>
+
+
+<!-- below is how we make jQuery available -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"> </script>
+<!-- below is how we attach a script file to an HTML file -->
+<script src="scripts/tip_calculator.js"></script>
+<!-- note that there is nothing below the script tags except the usual,
+     required body and html tags -->
+
+</body>
+</html>
