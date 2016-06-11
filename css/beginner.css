@@ -1,0 +1,30 @@
+h1 {
+    background: #95AB63;
+    color: #F6FFE0;
+    margin: 0;
+    padding: 20px;
+}
+p {
+    border: 5px solid #c00;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+/* link styles */
+a {
+    color: #95AB63;
+}
+a:hover {
+    color: #F6FFE0;
+    background: #152C73;
+    text-decoration: none;
+}
+
+/* class="special" is specified below this comment. Note the dot!
+   Note also that padding is quite different from margin, and many HTML elements
+   have some margins "built in" by the web browser. To eliminate all margins
+   on an element, use margin: 0;
+   */
+.special {
+    padding: 40px 30px;
+}
