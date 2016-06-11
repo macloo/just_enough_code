@@ -48,7 +48,7 @@ After headings, paragraphs, images, and links, students should learn to use the 
 ### Reliable HTML resources:
 
 * [HTMLDog tutorials: HTML](http://htmldog.com/guides/html/beginner/)
-* [Codecademy HTML](https://www.codecademy.com/learn/web)
+* [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
 
 ## Step 2: CSS
 
@@ -86,7 +86,7 @@ I recommend saving fonts until later, when the students are working with real fi
 ### Reliable CSS resources:
 
 * [HTMLDog tutorials: CSS](http://htmldog.com/guides/css/beginner/)
-* [Codecademy HTML](https://www.codecademy.com/learn/web)
+* [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
 
 ### Step 3: Using a Text Editor and Managing Files
 
