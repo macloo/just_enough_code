@@ -103,7 +103,7 @@ It's important to start with good work habits for files. A few tips:
 1. Always create a new folder for a new code project.
 2. Inside that folder, create three separate folders for *css, images,* and *scripts*.
 3. Save files into their proper folders.
-4. Use relative URLs for images and for links within the project, because this makes the project portable. When the complete folder is uploaded to a web server, everything will work just as it does on the local hard drive.
+4. Use relative URLs for images and for links within the project, because this makes the project portable. When the complete folder is uploaded to a web server, everything will work just as it does on the local hard drive. Relative URLs and links are explained [in this video](https://www.youtube.com/watch?v=K9NVYCego_4&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB&index=13).
 
 ### Document Structure
 
@@ -133,5 +133,11 @@ The contents of the `head` section *and their order* are quite important. The mi
 ```
 
 If stylesheets are linked, the `link` tag goes inside the `head` and below the `title`.
+
+### Relevance of Step 3
+
+In this outline, I recommend a learning order that corresponds to a progression of expertise in a newsroom or other editing/production environment. The basic level of knowledge is HTML and the ability to write (or fix) links, images, etc. A little more advanced is the ability to write (or fix) specific styles, such as colors, font sizes, and margins. Steps 1 and 2 apply to working within content management systems.
+
+Step 3 goes beyond content management systems (such as WordPress) and enables  students to create complete standalone documents outside a content management system. Being able to use a text editor and manage files means they can create a site consisting of many pages or a single-page application for web or mobile or both.
 
 ## Step 4: JavaScript and jQuery
