@@ -166,3 +166,50 @@ Why teach JavaScript and jQuery to beginners? Because JavaScript is what makes d
 ![Screen capture: jQuery in JSFiddle](images/jQuery-in-JSFiddle.png)
 
 I like to start students with something they can alter. Again, JSFiddle is perfect for this. [Here is an example.](https://jsfiddle.net/macloo/xegj2oe7/)
+
+### The jQuery example
+
+In that example, here are the important parts of the HTML:
+
+```
+<label>Subject</label><input type="text" id="subject" value="The rain">
+<label>Verb</label><input type="text" id="verb" value="falls">
+<label>Object</label><input type="text" id="object" value="on the plains">
+
+<p id="sentence">
+  Something new will appear here soon.
+</p>
+```
+
+* `<label>` is a tag used for form fields. It contains text. This is not relevant to our JavaScript at all, but we did not mention this tag until now.
+* `<input type="text">` creates a form field that can be typed in. We can optionally give it a unique `id`. If we do not give it an optional `value`, it will be blank. (This is another tag that we have not mentioned before.)
+* `<p id="sentence">` is a normal `p` tag with an optional unique `id` added.
+
+The `id` is usually **the key to manipulating things with JavaScript.** If something in your HTML has an `id`, you can address it and do things to it with a script. It's *vital* that each `id` is unique on the page. If it's not, the script will not work properly because it will be looking at more than one thing when it expects only one!
+
+Take a moment to play with the live example in the lower right pane in JSFiddle. Change the text several times and watch what happens as a result.
+
+Now look at the JavaScript/jQuery code:
+
+```
+// when subject value changes, change the text
+$('#subject').change(function() {
+    s = ($('#subject').val());
+	v = ($('#verb').val());
+	o = ($('#object').val());
+    $('#sentence').text(s + " " + v + " " + o);
+});
+```
+
+There are two more chunks of code that are nearly identical to that one. See if you can find the one-word difference in each chunk.
+
+If you discovered that the difference is `$('#subject').` and `$('#verb').` and `$('#object').` -- congratulations!
+
+What do those three things refer to? They refer to the unique `id` attributes **in the HTML.** Each `id` is in an `input` tag. Each chunk of script is "listening" to a specific `input` element -- the one with the matching `id`. Listening -- for what? For a *change* in the element. If you change the text and then Tab or Return, the script for that text-input goes into action.
+
+What is the action that ensues? It takes place in four parts, one part per line of script:
+
+1. Put the *value* of the text-input with `id` "subject" into a *variable,* s.
+2. Put the *value* of the text-input with `id` "verb" into a *variable,* v.
+3. Put the *value* of the text-input with `id` "object" into a *variable,* o.
+4. Create a *string* from s, v, and o by adding (actually, *concatenating*) them together with single spaces: `(s + " " + v + " " + o)`. It finds the element in the HTML with `id` "sentence" — because of `$('#sentence')`. It *replaces* the text inside that element (the `p`) with the new string — because of `.text()`.
