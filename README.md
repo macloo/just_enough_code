@@ -88,7 +88,7 @@ I recommend saving fonts until later, when the students are working with real fi
 * [HTMLDog tutorials: CSS](http://htmldog.com/guides/css/beginner/)
 * [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
 
-### Step 3: Using a Text Editor and Managing Files
+## Step 3: Using a Text Editor and Managing Files
 
 There is more about code, I promise, but first we need to talk about text editors for Windows and Mac. You need to use a proper text editor for code, and you **must not use** Notepad (Windows) or TextEdit (Mac) because they don't do the right things in the right way.
 
@@ -98,4 +98,40 @@ There is more about code, I promise, but first we need to talk about text editor
 
 Your students can now download a zipped copy of [this GitHub repo](https://github.com/macloo/just_enough_code): Click the **Clone or download** button and then click **Download ZIP**. This gives them a proper file structure for a project (with separate folders for *css, images,* and *scripts*) and a few file templates to work with.
 
-### Step 4: JavaScript and jQuery
+It's important to start with good work habits for files. A few tips:
+
+1. Always create a new folder for a new code project.
+2. Inside that folder, create three separate folders for *css, images,* and *scripts*.
+3. Save files into their proper folders.
+4. Use relative URLs for images and for links within the project, because this makes the project portable. When the complete folder is uploaded to a web server, everything will work just as it does on the local hard drive.
+
+### Document Structure
+
+The basic, correct, standard structure for an HTML document in 2016 is this:
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- meta tags, title, link tags -->
+    </head>
+
+    <body>
+        <!-- all content visible to users goes here -->
+    </body>
+</html>
+```
+
+The contents of the `head` section *and their order* are quite important. The minimum inside the `head` is as follows:
+
+```
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> write a good title for search engines </title>
+</head>
+```
+
+If stylesheets are linked, the `link` tag goes inside the `head` and below the `title`.
+
+## Step 4: JavaScript and jQuery
