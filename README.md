@@ -140,6 +140,10 @@ The contents of the `head` section *and their order* are quite important. The mi
 
 If stylesheets are linked, the `link` tag goes inside the `head` and below the `title`.
 
+The *meta charset* tag is explained well [here](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Introduction_to_HTML5).
+
+Here is a good [explanation](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag) of the *viewport meta tag.*
+
 ### Relevance of step 3
 
 In this outline, I recommend a learning order that corresponds to a progression of expertise in a newsroom or other editing/production environment. The basic level of knowledge is HTML (step 1) and the ability to write (or fix) links, images, etc.
