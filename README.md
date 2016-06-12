@@ -8,6 +8,8 @@ In my view, code is empowering. Using code is like using brushes and paint, and 
 
 *Don't teach your students to use this.*
 
+**A WORD OF WARNING:** HTML, CSS, and JavaScript have all evolved over the years. When you search online for answers, tutorials, and examples, check *carefully* to find a date, and make sure you are not using old techniques that have been replaced. Outdated info is a big source of trouble for beginners!
+
 ## Step 1: HTML
 
 Use [JSFiddle](https://jsfiddle.net/) to let students play with HTML tags. Students can create a free account, save their work, and turn in a JSFiddle URL for a grade. [Here is an example.](https://jsfiddle.net/macloo/3j60uz7b/) The key commands in JSFiddle are Run, Save and Update, and Set as Base.
@@ -184,7 +186,7 @@ In that example, here are the important parts of the HTML:
 <input type="text" id="object" value="on the plains">
 
 <p id="sentence">
-  Something new will appear here soon.
+    Something new will appear here soon.
 </p>
 ```
 
@@ -210,7 +212,7 @@ $('#subject').change(function() {
 
 There are two more chunks of code that are nearly identical to that one. See if you can find the one-word difference in each chunk.
 
-If you discovered that the difference is `$('#subject').` and `$('#verb').` and `$('#object').` — congratulations!
+If you discovered that the difference is `$('#subject').` and `$('#verb').` and `$('#object').` in the second line (the first line is a *comment*) — congratulations!
 
 What do those three things refer to? They refer to the unique `id` attributes **in the HTML.** Each `id` is in an `input` tag. Each chunk of script is "listening" to a specific `input` element — the one with the matching `id`. Listening — for what? For a *change* in the element. If you change the text and then Tab or Return, the script for that text-input goes into action.
 
@@ -234,9 +236,11 @@ $('#some_id').some_action(function() {
 });
 ```
 
+This document does not cover the use of `id` and `class` in detail. The core difference between them is that an `id` **must be unique** in a document, and `class` can be reused as many times as needed. Thus we can assign one `class` to several headings and paragraphs on a page and give all of them a bright yellow background, like highlighting, using CSS. We can use jQuery to manipulate both `id` and `class`.
+
 ### More examples
 
-The JavaScript/jQuery in [these examples](https://github.com/macloo/jQuery_useful) is heavily commented so that beginners can learn from it.
+The JavaScript/jQuery scripts in [these examples](https://github.com/macloo/jQuery_useful) are heavily commented so that beginners can learn from them.
 
 ### Reliable JavaScript and jQuery resources:
 
