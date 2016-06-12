@@ -1,0 +1,11 @@
+# Mac file types to be ignored
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# folders to be ignored
+slides/
