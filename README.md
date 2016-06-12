@@ -94,6 +94,10 @@ Using borders is a great way to learn the different effects of margins and paddi
 
 I recommend saving fonts until later, when the students are working with real files and not JSFiddle.
 
+### Using `div`
+
+The HTML `div` tag is like duct tape — it has thousands of uses. When you wrap HTML in a pair of `div` tags, you can use CSS (and JavaScript) to do all kinds of things to that wrapped block. To target a specific `div` with CSS, we must give it a unique `id` in the HTML. [Here is an example.](https://jsfiddle.net/macloo/hxjn97u5/) Play with it!
+
 ### Reliable CSS resources:
 
 * [HTMLDog tutorials: CSS](http://htmldog.com/guides/css/beginner/)
