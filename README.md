@@ -230,6 +230,10 @@ $('#some_id').some_action(function() {
 });
 ```
 
+### More examples
+
+The JavaScript/jQuery in [these examples](https://github.com/macloo/jQuery_useful) is heavily commented so that beginners can learn from it.
+
 ### Reliable JavaScript and jQuery resources:
 
 * [Mozilla Developer Network: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
