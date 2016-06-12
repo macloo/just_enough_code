@@ -74,6 +74,8 @@ h1 {
 
 Students like using the [Adobe Color site](https://color.adobe.com/) for experimenting with color palettes. They can easily copy hexadecimal codes from there.
 
+![Screen capture: Adobe Color site](images/adobe-color.jpg)
+
 Along with colors, you can introduce link styles (pseudo classes). This is a simple way to start that reinforces working with hexadecimal colors and the background and color properties:
 ```
 a {
