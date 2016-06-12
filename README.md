@@ -81,6 +81,9 @@ a:hover {
     text-decoration: none;
 }
 ```
+
+**What that does:** The first selector, `a`, affects all the uses of the `a` tag on the page. In this case, the block for `a` changes the text color to green. The second selector, `a:hover`, affects all links on the page when they are moused over. In this case, the block for `a:hover` contains three declarations that: (1) change the text color to yellow; (2) change the background color to dark blue; and (3) remove the underline from the link text.
+
 After students have some experience with colors and CSS, you can introduce padding, margins, borders, and the [CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model). (Do not get into DIVs, HTML5 elements, or positioning until students have experimented with padding, margins, and borders.)
 
 Using borders is a great way to learn the different effects of margins and padding. [Here is an example.](https://jsfiddle.net/macloo/ux4kLdLg/) Note that every `p` element has a red border, and the left margin is 50 pixels. The `h1` element has no border and no margins, but it has 20 pixels of padding on all four sides.
@@ -105,6 +108,14 @@ There is more about code, I promise, but first we need to talk about text editor
 Your students can now download a zipped copy of [this GitHub repo](https://github.com/macloo/just_enough_code): Click the **Clone or download** button and then click **Download ZIP**. This gives them a proper file structure for a project (with separate folders for *css, images,* and *scripts*) and a few file templates to work with.
 
 **NOTE:** You don't need to use GitHub for anything other than this download. However, learning GitHub and teaching students to use it — in conjunction with the free [GitHub app](https://desktop.github.com/) — is incredibly great for teaching beyond the basics. Also: [GitHub Pages](https://pages.github.com/) let you publish websites for free!
+
+### Use the example files
+
+* [HTML file](https://github.com/macloo/just_enough_code/blob/master/basic_html_with_css.html)
+* [CSS file](https://github.com/macloo/just_enough_code/blob/master/css/beginner.css)
+* [Live page](http://macloo.github.io/just_enough_code/basic_html_with_css.html)
+
+As you'll see, the live page is not pretty! A possible exercise is to improve the page by editing the CSS file.
 
 ### Good work habits
 
