@@ -12,40 +12,44 @@ In my view, code is empowering. Using code is like using brushes and paint, and 
 
 ## Step 1: HTML
 
-Use [JSFiddle](https://jsfiddle.net/) to let students play with HTML tags. Students can create a free account, save their work, and turn in a JSFiddle URL for a grade. [Here is an example.](https://jsfiddle.net/macloo/3j60uz7b/) The key commands in JSFiddle are Run, Save and Update, and Set as Base.
+Use [JSFiddle](https://jsfiddle.net/) to let students play with HTML tags. Students can create a free account, save their work, and turn in a JSFiddle URL for a grade. [Here is an example.](https://jsfiddle.net/macloo/3j60uz7b/) Use the example by changing things, adding things, moving things. Learn code by playing with code!
+
+The key commands in JSFiddle are Run, Save and Update, and Set as Base.
 
 ![Screen capture: JSFiddle controls](images/JSFiddle-commands.png)
 
-First, focus on headings, paragraphs, images, and links (as in the example). Emphasize that HTML is intended to reflect the document's structure. For example, use an `h1` tag *only* for the top-level heading in the document, and do not use `h` tags (`h1` through `h6`) on any text that is *not a heading*. The tags are not meant to make text *look* a certain way; they are meant to mark up the structural elements.
+First, focus on learning to use headings, paragraphs, images, and links (as in the example). Emphasize that HTML is intended to reflect the document's structure. For example, use an `h1` tag *only* for the top-level heading in the document, and do not use `h` tags (`h1` through `h6`) on any text that is *not a heading*. The tags are not meant to make text *look* a certain way; they are meant to mark up the structural elements.
+
 ```
 <h1> </h1>
 <p> </p>
 <img src="" alt="">
 <a href=""> </a>
 ```
+
 Note that all images must have an `alt` attribute, or the HTML will not [validate](https://html5.validator.nu/). If you don't believe me, [read this](https://www.joedolson.com/2015/03/are-alt-attributes-required-always/).
 
-Another thing to note is that no tags require a slash at the end — `/>` — that was XHTML, and it's gone. All modern browsers support HTML5 now. Tags are either paired — `<p> </p>` — or empty — `<img>`.
+Another thing to note is that today, no tags require a slash at the end — `/>` — that was XHTML, and it's gone. All modern browsers support HTML5 now. Tags are either paired — `<p> </p>` — or empty — `<img>`. Paired tags typically have text between them.
 
 The `<br>` tag is not intended for creating linespaces. [Its few legitimate uses](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br) include postal addresses and poetry.
 
 ```
-Mary McFee<br>
+<p>Mary McFee<br>
 123 Main Street<br>
-Littletown, FL 32611<br>
+Littletown, FL 32611</p>
 
-A fly and a flea in a flue<br>
+<p>A fly and a flea in a flue<br>
 Were imprisoned, so what could they do?<br>
 Said the fly: "Let us flee!"<br>
 "Let us fly!" said the flea.<br>
-So they flew through a flaw in the flue.<br>
+So they flew through a flaw in the flue.</p>
 ```
 
 If you want to introduce bold and italic styles, use the `<strong>` and `<em>` tags, not the old `<b>` and `<i>` tags!
 
 Above all, do not let students insert style elements such as fonts and colors into the HTML tags. That is not how it's done in 2016.
 
-After headings, paragraphs, images, and links, students should learn to use the three types of lists: ordered, unordered, and definition. Save forms and tables for *much* later. Also, we'll get to `html`, `head`, and `body` in step 3, below.
+After headings, paragraphs, images, and links, students should learn to use the three types of lists: ordered, unordered, and definition ([see example file, lines 51–73](https://github.com/macloo/just_enough_code/blob/master/basic_html_no_css.html)). Save forms and tables for *much* later. Also, we'll get to `html`, `head`, and `body` in step 3, below.
 
 ### Reliable HTML resources:
 
