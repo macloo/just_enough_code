@@ -265,6 +265,8 @@ This document does not cover the use of `id` and `class` in detail. The core dif
 
 The JavaScript/jQuery scripts in [these examples](https://github.com/macloo/jQuery_useful) are heavily commented so that beginners can learn from them.
 
+See my [public Fiddles](https://jsfiddle.net/user/macloo/fiddles/) for more examples.
+
 ### Reliable JavaScript and jQuery resources:
 
 * [Mozilla Developer Network: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
