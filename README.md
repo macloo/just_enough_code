@@ -76,6 +76,9 @@ Students like using the [Adobe Color site](https://color.adobe.com/) for experim
 
 ![Screen capture: Adobe Color site](images/adobe-color.jpg)
 
+* [Video about using Adobe Color](https://www.youtube.com/watch?v=Um7TVYF0QIU&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB&index=21) (4 min. 24 sec.)
+* [Video about the hexadecimal color codes](https://www.youtube.com/watch?v=iJcIlC4yFIQ&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB&index=22) (4 min.)
+
 Along with colors, you can introduce link styles (pseudo classes). This is a simple way to start that reinforces working with hexadecimal colors and the background and color properties:
 ```
 a {
