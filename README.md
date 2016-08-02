@@ -116,7 +116,7 @@ There is more about code, I promise, but first we need to talk about text editor
 
 [Atom](https://atom.io/) is my top recommendation for everyone.  [Notepad++](https://notepad-plus-plus.org/) will work for any Windows version (in case for some reason Atom does not work for you). Both are free.
 
-AT this point, your students can download a zipped copy of [this GitHub repo](https://github.com/macloo/just_enough_code): Click the **Clone or download** button and then click **Download ZIP**. This gives them a proper file structure for a project (with separate folders for *css, images,* and *scripts*) and a few file templates to work with.
+At this point, your students can download a zipped copy of [this GitHub repo](https://github.com/macloo/just_enough_code): Click the **Clone or download** button and then click **Download ZIP**. This gives them a proper file structure for a project (with separate folders for *css, images,* and *scripts*) and a few file templates to work with.
 
 ![Screen capture: Download from GitHub](images/download-zip.png)
 
@@ -193,7 +193,7 @@ Thanks to [JSFiddle](https://jsfiddle.net/), which was introduced above, student
 
 Why teach JavaScript and jQuery to beginners? Because JavaScript is what makes digital content *interactive.* If you want it to move, spin, fold, animate, calculate, or just plain respond, then it needs JavaScript!
 
-[jQuery](http://jquery.com/) is a JavaScript library, and JSFiddle makes it easy to start using it. Open the menu in the JavaScript pane (shown below), change the two fields indicated, and you're ready to play.
+[jQuery](http://jquery.com/) is a JavaScript library, and JSFiddle makes it easy to start using it. In JSFiddle, open the menu in the JavaScript pane (shown below), change the two fields indicated, and you're ready to play.
 
 ![Screen capture: jQuery in JSFiddle](images/jQuery-in-JSFiddle.png)
 
@@ -216,13 +216,13 @@ In that example, here are the important parts of the HTML:
 </p>
 ```
 
-* `<label>` is a tag used for form fields. It contains text. This is not relevant to our JavaScript at all, but we did not mention this tag until now.
-* `<input type="text">` creates a form field into which we can type. We can optionally give it a unique `id`. If we do not give it an optional `value`, it will be blank. (This is another tag that we have not mentioned before.)
-* `<p id="sentence">` is a normal `p` tag with an optional unique `id` added.
+* `<label>` is an HTML tag used in conjunction with form fields. It contains text. This is not relevant to our JavaScript at all. We did not mention this tag until now, and I've put it into the HTML because using this tag is the standard way to label a form field.
+* `<input type="text">` creates a form field into which we can type. You might call it a "text entry field." We can optionally give it a unique `id`. If we do not give it an optional `value`, it will be blank. (This is another HTML tag that we have not mentioned before.)
+* `<p id="sentence">` is a normal `p` tag with an optional unique `id` added. This is the standard way to designate a unique identifier for any HTML element.
 
 The `id` is usually **the key to manipulating things with JavaScript.** If something in your HTML has an `id`, you can address it and do things to it with a script. It's *vital* that each `id` is unique on the page. If it's not, the script will not work properly because it will be looking at more than one thing when it expects only one!
 
-Take a moment to play with the live example in the lower right pane in JSFiddle. Change the text several times and watch what happens as a result.
+Take a moment to play with the live example in JSFiddle. Inside the lower right pane, change the text several times and watch what happens as a result.
 
 Now look at the JavaScript/jQuery code:
 
@@ -250,6 +250,8 @@ What is the action that ensues? It takes place in four parts, one part per line 
 4. Creates a *string* from s, v, and o by adding (actually, *concatenating*) them together with single spaces: `(s + " " + v + " " + o)`. Finds the element in the HTML with `id` "sentence" — because of `$('#sentence')`. Then *replaces* the text inside that element (the `p`) with the new string — because of `.text()`.
 
 Right now you might be wondering how you would ever learn all those bits and pieces and how to put them together. Most people learn by looking at fairly simple scripts, playing with them, and modifying them. You don't need to know *everything* to be able to do *something.*
+
+**NOTE:** This script is far from perfect. Its worst flaw is redundancy. Using JSFiddle, you and your students can try to improve this script.
 
 ### The pattern for changing things
 
