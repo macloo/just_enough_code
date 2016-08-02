@@ -116,9 +116,9 @@ There is more about code, I promise, but first we need to talk about text editor
 
 [Atom](https://atom.io/) is my top recommendation for everyone.  [Notepad++](https://notepad-plus-plus.org/) will work for any Windows version. Both are free.
 
-![Screen capture: Download from GitHub](images/download-zip.png)
-
 Your students can now download a zipped copy of [this GitHub repo](https://github.com/macloo/just_enough_code): Click the **Clone or download** button and then click **Download ZIP**. This gives them a proper file structure for a project (with separate folders for *css, images,* and *scripts*) and a few file templates to work with.
+
+![Screen capture: Download from GitHub](images/download-zip.png)
 
 **NOTE:** You don't need to use GitHub for anything other than this download. However, learning GitHub and teaching students to use it — in conjunction with the free [GitHub app](https://desktop.github.com/) — is incredibly great for teaching beyond the basics. Also: [GitHub Pages](https://pages.github.com/) let you publish websites for free!
 
