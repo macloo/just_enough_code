@@ -270,7 +270,13 @@ This document does not cover the use of `id` and `class` in detail. The core dif
 
 The JavaScript/jQuery scripts in [these examples](https://github.com/macloo/jQuery_useful) are heavily commented so that beginners can learn from them.
 
-See my [public Fiddles](https://jsfiddle.net/user/macloo/fiddles/) for more examples.
+See my [public Fiddles](https://jsfiddle.net/user/macloo/fiddles/) for more examples. Some of the best/easiest ones:
+
+* [animate 1](https://jsfiddle.net/macloo/n7wxbqch/)
+* [animate 2](https://jsfiddle.net/macloo/bdLgwrwq/)
+* [show and hide](https://jsfiddle.net/macloo/Lvs6y8jp/)
+* [simple accordion menu](https://jsfiddle.net/macloo/nws97853/)
+* [sliding sections](https://jsfiddle.net/macloo/bmLf12nd/)
 
 ### Reliable JavaScript and jQuery resources:
 
