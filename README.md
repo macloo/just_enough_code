@@ -277,6 +277,8 @@ See my [public Fiddles](https://jsfiddle.net/user/macloo/fiddles/) for more exam
 * [show and hide](https://jsfiddle.net/macloo/Lvs6y8jp/)
 * [simple accordion menu](https://jsfiddle.net/macloo/nws97853/)
 * [sliding sections](https://jsfiddle.net/macloo/bmLf12nd/)
+* [toggle class](https://jsfiddle.net/macloo/7hfvgcLt/)
+* [swap images](https://jsfiddle.net/macloo/3qr2jd8t/)
 
 ### Reliable JavaScript and jQuery resources:
 
