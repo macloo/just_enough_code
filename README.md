@@ -114,9 +114,9 @@ There is more about code, I promise, but first we need to talk about text editor
 
 ![Screen capture: Atom text editor](images/atom-screen-shot.png)
 
-[Atom](https://atom.io/) is my top recommendation for everyone.  [Notepad++](https://notepad-plus-plus.org/) will work for any Windows version. Both are free.
+[Atom](https://atom.io/) is my top recommendation for everyone.  [Notepad++](https://notepad-plus-plus.org/) will work for any Windows version (in case for some reason Atom does not work for you). Both are free.
 
-Your students can now download a zipped copy of [this GitHub repo](https://github.com/macloo/just_enough_code): Click the **Clone or download** button and then click **Download ZIP**. This gives them a proper file structure for a project (with separate folders for *css, images,* and *scripts*) and a few file templates to work with.
+AT this point, your students can download a zipped copy of [this GitHub repo](https://github.com/macloo/just_enough_code): Click the **Clone or download** button and then click **Download ZIP**. This gives them a proper file structure for a project (with separate folders for *css, images,* and *scripts*) and a few file templates to work with.
 
 ![Screen capture: Download from GitHub](images/download-zip.png)
 
@@ -128,7 +128,7 @@ Your students can now download a zipped copy of [this GitHub repo](https://githu
 * [CSS file](https://github.com/macloo/just_enough_code/blob/master/css/beginner.css)
 * [Live page](http://macloo.github.io/just_enough_code/basic_html_with_css.html)
 
-As you'll see, the live page is not pretty! A possible exercise is to improve the page by editing the CSS file.
+As you'll see, the live page is not pretty! A possible exercise is to improve the page by editing the CSS file. The HTML and CSS files are intended to be changed, by you or by anyone, for learning.
 
 ### Good work habits
 
