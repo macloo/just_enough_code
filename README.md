@@ -114,7 +114,7 @@ There is more about code, I promise, but first we need to talk about text editor
 
 ![Screen capture: Atom text editor](images/atom-screen-shot.png)
 
-[Atom](https://atom.io/) is my top recommendation for everyone — except it looks like Windows 10 users can't use it (yet?). [Notepad++](https://notepad-plus-plus.org/) will work for any Windows version. Both are free.
+[Atom](https://atom.io/) is my top recommendation for everyone.  [Notepad++](https://notepad-plus-plus.org/) will work for any Windows version. Both are free.
 
 ![Screen capture: Download from GitHub](images/download-zip.png)
 
