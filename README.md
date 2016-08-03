@@ -1,6 +1,6 @@
 # Just Enough Code
 
-Teaching web design in 2016 shouldn't be about software and which buttons to push. This 20-minute segment was part of a pre-conference workshop from the Visual Communication Division of [AEJMC](http://www.aejmc.org/).
+Teaching web design in 2016 shouldn't be about software and which buttons to push. This 20-minute segment was part of a pre-conference workshop from the Visual Communication Division of [AEJMC](http://www.aejmc.org/). [See slides.](http://www.slideshare.net/macloo/just-enough-code) 
 
 In my view, code is empowering. Using code is like using brushes and paint, and using software tools is like using an Etch A Sketch.
 
